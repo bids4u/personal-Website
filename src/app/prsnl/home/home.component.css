@@ -1,0 +1,23 @@
+
+
+.front{
+  padding-top: 25%;
+  padding-left: 10%;
+}
+.social{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+a{
+  text-decoration: none;
+}
+.edc{
+  margin-left: 10%;
+  border-left: 5px solid black;
+  padding: 5%;
+  padding-right: 10%;
+}
+.contact{
+ margin:5%;
+ padding:5%
+}

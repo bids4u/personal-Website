@@ -1,0 +1,38 @@
+<mat-sidenav-container>
+
+  <mat-sidenav #sidenav mode="side">
+    <mat-list>
+      <mat-list-item>
+        <mat-icon>home</mat-icon>
+        <h3 mat-line><a routerLink="/prsnl/home">Home</a></h3>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <mat-icon>person</mat-icon>
+        <h3 mat-line><a href="http://www.lbg.com.np/" target="_blank">Work</a></h3>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <mat-icon>call</mat-icon>
+        <h3 mat-line><a href="https://drive.google.com/file/d/1mBI0VXrXOT9fcNVRcQjSqCbYLXwct1JX/view" target="_blank">Portfolio</a></h3>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+    </mat-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <div class="row">
+      <div class="col">
+        <button mat-raised-button (click)="sidenav.toggle()"><mat-icon>list</mat-icon></button>
+      </div>
+      <div class="col ">
+        <div class="d-flex justify-content-end"> <button mat-raised-button ><a href="#">Contact Us</a></button></div>
+
+      </div>
+
+    </div>
+<br>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
